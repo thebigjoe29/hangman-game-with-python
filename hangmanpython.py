@@ -19,9 +19,9 @@ if n>2:
          else:
             ctr+=1
          if ctr==2:
-            r=input("do you want a hint?: ")
-            if r=="Y":
-                print(secw[0])
+            r=input("do you want a hint?: ").lower()
+            if r=="y":
+                print("%c",endl = "\n") % (secw[0])
         else:
             print("Invalid input")
     if ctr==n:
