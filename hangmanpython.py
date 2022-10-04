@@ -1,6 +1,6 @@
 import random
 f=random.randint(0,4)
-tp=("apple","banana","orange","pears","pomegranate")
+tp=("apple","banana","orange","pears","pomegranate","kiwi")
 secw=tp[f]
 ctr=0
 n=int(input("enter no of tries: "))
